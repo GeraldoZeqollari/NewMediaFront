@@ -1,0 +1,33 @@
+.footer_bar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #09435b;
+    display: flex;
+    padding: 20px 300px;
+  }
+  .new_footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: white;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  .footer_left {
+    display: flex;
+    gap: 80px;
+  }
+  .footer_right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: white;
+  }
+  .new_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }

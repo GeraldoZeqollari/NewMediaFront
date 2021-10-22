@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.medical {
+  display: flex;
+  align-items: center;
+}
+
+
+.white_class {
+  color: white;
+}
+.thin_text {
+  font-weight: 50;
+}
+
+
+.page_container {
+  padding: 50px 250px;
+  color: #09435b;
+}
+.inner_contanier {
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.back_btn {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #09435b;
+  background-color: transparent;
+  color: #09435b;
+}
+.section_contanier {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.paragraph_div{
+  display: flex;
+  gap:5px;
+}
+.paragraph_header {
+  font-size: 22px;
+  font-weight: 600;
+}
+.paragraph_header1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.parking_go {
+  /* padding-left: 15px; */
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.time_card {
+  padding: 15px;
+  background-color: #d0d8da;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.card_elements_contanier {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.name_surname {
+  display: flex;
+  gap: 200px;
+}
+.name_surname > * {
+  width: 100%;
+}
+.cellulare {
+  display: flex;
+
+  gap: 200px;
+}
+.paragraph_check {
+  margin-bottom: 10px;
+}
+.input {
+  height: 25px;
+  border: 1px solid #87dbda;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.credit_card {
+  background-color: #f0f5f4;
+  padding: 10px;
+}
+label {
+  margin-bottom: 5px;
+}
+.credit_data {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.credit_data > * {
+  width: 100%;
+}
+.provinzia {
+  display: flex;
+  flex-direction: column;
+}
+.check {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 25px 0px;
+}
+.cvc {
+  position: relative;
+}
+.cvc i {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  right: 5px;
+  font-size: 17px;
+}
+.images {
+  display: flex;
+  gap: 15px;
+}
+.credit_check {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.btn1 {
+  width: 160px;
+  height: 55px;
+  background-color: #d1d8db;
+  border-radius: 2px;
+  color: #69d3d0;
+  border: 1px solid #69d3d0;
+  color: #09435b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fimage {
+  color: white;
+  padding-right: 20px;
+}
+.fimage1 {
+  padding-right: 20px;
+}
+.btn2 {
+  width: 160px;
+  height: 55px;
+  background-color: #0eb6b6;
+  border-radius: 2px;
+  color: #69d3d0;
+  border: 1px solid #69d3d0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+  border-radius: 40px;
+  width: 350px;
+  background-color: #d0d8da;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0px;
+  outline: 0;
+  font-weight: 800;
+}
+
+.button1 {
+  background-color: #0fb7b6;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.cogname {
+  display: flex;
+  flex-direction: column;
+}
+
+.email_paragraph {
+  font-size: 11px;
+  max-width: 45ch;
+  margin-top: 5px;
+}
+
+.input {
+  height: 30px;
+}
+.card_elements_contanier select {
+  width: 60px;
+  height: 30px;
+}
+.card_elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_contanier {
+  display: flex;
+  gap: 15px;
+}
+
+.parking_go i {
+  font-size: 30px;
+}
+.parking_go h2 {
+  font-weight: lighter;
+}
+.parking_paragraph {
+  align-items: center;
+  background-color: #d0d8da;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+.parking_paragraph p {
+  text-decoration: underline;
+  font-size: small;
+}
+.paragraph_body {
+  max-width: 65ch;
+  margin-top: 12px;
+  font-size: 17px;
+}
+
+.card_active {
+  background-color: #0fb7b6;
+}
+.btn_div {
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  width: 120px;
+  height: 25px;
+  background-color: transparent;
+  border-radius: 2px;
+  color: #69d3d0;
+  border: 1px solid #69d3d0;
+}
+.btngroup {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.input1 {
+  width: 100%;
+}
+.input3 {
+  width: 40%;
+}
+.input2 {
+  width: 100%;
+}
+.hidden {
+  visibility: hidden;
+}
+.btncolor{
+  background-color: #d1d8db;
+}
+.btncolor1{
+  background-color: #0eb7b7;
+}
+
+@media only screen and (max-width: 765px) {
+  .nav_bar {
+    padding: 5px 20px;
+  }
+  .hidden {
+    visibility: visible;
+  }
+  .page_container {
+    padding: 50px 20px;
+  }
+  .footer_bar {
+    padding: 20px 20px;
+  }
+  .btngroup {
+    display: inline;
+  }
+  .card_contanier > * {
+    width: 90%;
+  }
+  .card_contanier {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .parking_paragraph {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 30px;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  .parking_paragraph p {
+    align-self: flex-end;
+  }
+
+  .paragraph_header {
+    align-self: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .paragraph_body {
+    align-self: center;
+    max-width: 40ch;
+  }
+  .name_surname {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .input3 {
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .email_paragraph {
+    max-width: 55ch;
+  }
+
+  .footer_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer_bar {
+    padding: 50px;
+  }
+  .btn1 {
+    width: 49%;
+  }
+  .btn2 {
+    width: 49%;
+  }
+  .btngroup {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
